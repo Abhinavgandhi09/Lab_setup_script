@@ -1,6 +1,6 @@
-# This script clones the mer lab repo and installs all its dependencies
-
 #!/bin/bash
+
+# This script clones the mer lab repo and installs all its dependencies
 cd $HOME;
 git clone https://www.github.com/berkcalli/mer_lab.git &&
 echo "Cloned MER LAB REPOSITORY";
