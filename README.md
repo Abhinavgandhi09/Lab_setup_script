@@ -7,3 +7,5 @@ Run the individual scripts to setup the individual software/ repos. You can also
 
 Use the command chmod u+x script_name.sh to modify the script's access.
 Then run the script as ./script_name.sh
+
+Use the fresh-system.sh if setting up a new computer to use robot. If installing only certain features, use individual scripts.
