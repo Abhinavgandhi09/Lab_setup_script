@@ -12,3 +12,4 @@ make oldconfig &&
 
 echo "Follow instructions on https://frankaemika.github.io/docs/installation_linux.html";
 echo "Do not use fakeroot, use make..";
+echo "the make process will take sometime..";
