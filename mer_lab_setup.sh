@@ -2,7 +2,7 @@
 
 # This script clones the mer lab repo and installs all its dependencies
 cd $HOME;
-source .bashrc &&
+source ~/.bashrc &&
 git clone https://www.github.com/berkcalli/mer_lab.git &&
 echo "Cloned MER LAB REPOSITORY";
 cd mer_lab &&
