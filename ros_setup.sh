@@ -20,8 +20,8 @@ source ~/.bashrc &&
 echo "Environment Setup Complete";
 
 # Install Dependencies
-sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential &&
-sudo apt install python-rosdep &&
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential &&
+sudo apt install python3-rosdep &&
 sudo rosdep init &&
 rosdep update &&
 echo "Installation Complete! Please check your install using roscore and turtlesim tutorials";
