@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-# This script installs ROS MELODIC
+# This script installs ROS NOETIC
 cd $HOME;
 
 # Sources and key setup
@@ -11,11 +11,11 @@ echo "Added Sources and Keys";
 
 # Install
 sudo apt update &&
-sudo apt install ros-melodic-desktop-full &&
-echo "Installed ROS Melodic";
+sudo apt install ros-noetic-desktop-full &&
+echo "Installed ROS Noetic";
 
 # Environment Setup
-echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc &&
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc &&
 source ~/.bashrc &&
 echo "Environment Setup Complete";
 
